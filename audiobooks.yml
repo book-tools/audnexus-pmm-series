@@ -1,0 +1,16 @@
+templates:
+  audiobooks:
+    builder_level: album # ensure each collection is made from an entire book's album, not individual tracks on it
+    smart_filter:
+      limit: 1000 # without a custom limit, the max books in a series will be cut off at 10.
+      sort_by: title.asc # sort each series by sort title ascending, as the sort title for each book in a series (from the metadata agent) should keep them in order. without this, the books in the collection will be sorted by total plays.
+      all:
+        album_mood: <<value>>
+
+dynamic_collections:
+  Audiobook Series:
+    type: album_mood
+    title_format: <<key_name>>
+    remove_prefix: 'Series: ' # remove the "Series: " prefix from each Series name added by Audnexus before creating a collection from it.
+    # remove_suffix: ' Series' # some audible series names include the word "Series" at the end. If you'd like to remove that, uncomment this option.
+    template: audiobooks

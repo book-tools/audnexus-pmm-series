@@ -1,0 +1,15 @@
+libraries:
+  REPLACE_WITH_AUDIOBOOK_LIBRARY_NAME:
+    metadata_path:
+      - file: config/audiobooks.yml
+    operations:
+      delete_collections:
+        unconfigured: true
+        less: 1
+
+plex:
+  url: REPLACE_WITH_LOCAL_PLEX_URL
+  token: REPLACE_WITH_PLEX_TOKEN
+
+tmdb:
+  apikey: REPLACE_WITH_TMDB_API_KEY
