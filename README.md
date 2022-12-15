@@ -108,7 +108,7 @@ with their respective values:
    it's simply "Audiobooks".
 2. `REPLACE_WITH_LOCAL_PLEX_URL` - This should be replaced with the local URL
    your plex server can be found at, often just an IP address. In my case this
-   is `http://http://192.168.1.2:32400`.
+   is `http://192.168.1.2:32400`.
 3. `REPLACE_WITH_PLEX_TOKEN` - For this part, you'll need to find your Plex
    authentication token following the
    [official guide on the Plex website](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/).
