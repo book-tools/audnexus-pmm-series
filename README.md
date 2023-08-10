@@ -8,7 +8,7 @@ populated from the
 Plex. This is done by generating collections from the "Mood" tags that Audnexus
 adds to each book's metadata from each Audible series they are a part of.
 
-Plex-Meta-Manager is "project that has been designed to ease the creation and
+Plex-Meta-Manager is "a project that has been designed to ease the creation and
 maintenance of metadata, collections, and playlists within a Plex Media Server".
 There are other tools made with a similar purpose such as
 [Plex-Auto-Collections](https://github.com/mza921/Plex-Auto-Collections) but
